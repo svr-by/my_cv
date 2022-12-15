@@ -293,6 +293,17 @@ ul, li, h1, h2 {
     margin: 0;
 }
 
+@media (max-width: 992px) {
+    .list__item {
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 768px) {
+    .list__item {
+        font-size: 1rem;
+    }
+}
+
 .code-example {
     background-color: var(--color-lightgrey);
     font-size: 14px;
@@ -337,6 +348,11 @@ ul, li, h1, h2 {
 }
 
 @media (max-width: 576px) {
+    .list__item,
+    .section {
+        font-size: 0.8rem;
+    }
+
     .section--name {
         padding: 2rem 1rem;
     }
