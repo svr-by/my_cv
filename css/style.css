@@ -276,7 +276,21 @@ ul, li, h1, h2 {
 }
 
 .list__item {
-    margin-bottom: 10px;
+    margin-bottom: 0.5rem;
+    line-height: 2rem;
+}
+
+.list__icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+
+.list__text {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
 }
 
 .code-example {
