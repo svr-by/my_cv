@@ -46,6 +46,11 @@ body {
     min-height: 100vh;
 }
 
+@media (max-width: 992px) {
+    body {
+        padding: 0;
+    }
+}
 @media (max-width: 576px) {
     body {
         font-size: 16px;
@@ -61,6 +66,12 @@ ul, li, h1, h2 {
     max-width: 1200px;
     margin: 0 auto;
     box-shadow:  5px 0px 10px 0px rgb(0 0 0 / 23%);
+}
+
+@media (max-width: 992px) {
+    .container{
+        box-shadow: none;
+    }
 }
 
 .main-container {
@@ -321,9 +332,8 @@ ul, li, h1, h2 {
 }
 
 .section--name {
-    padding: 2rem;
-    background-color: var(--color-grey);
-    color: var(--color-white);
+    padding: 2rem 0;
+    color: var(--color-darkgrey);
     text-transform: uppercase;
     letter-spacing: 0.2rem;
 }
