@@ -80,6 +80,14 @@
                                 <p class="list__text">React</p>
                             </li>
                             <li class="list__item">
+                                <img src="./assets/svg/icon-react-hook-form.svg" class="list__icon" alt="Icon">
+                                <p class="list__text">React Hook Form</p>
+                            </li>
+                            <li class="list__item">
+                                <img src="./assets/svg/icon-react-router.svg" class="list__icon" alt="Icon">
+                                <p class="list__text">React Router</p>
+                            </li>
+                            <li class="list__item">
                                 <img src="./assets/svg/icon-redux.svg" class="list__icon" alt="Icon">
                                 <p class="list__text">Redux, Redux Toolkit</p>
                             </li>
@@ -90,6 +98,22 @@
                             <li class="list__item">
                                 <img src="./assets/svg/icon-jest.svg" class="list__icon" alt="Icon">
                                 <p class="list__text">Jest</p>
+                            </li>
+                            <li class="list__item">
+                                <img src="./assets/svg/icon-testing-library.svg" class="list__icon" alt="Icon">
+                                <p class="list__text">React Testing Library</p>
+                            </li>
+                            <li class="list__item">
+                                <img src="./assets/svg/icon-rest-api.svg" class="list__icon" alt="Icon">
+                                <p class="list__text">REST API</p>
+                            </li>
+                            <li class="list__item">
+                                <img src="./assets/svg/icon-webpack.svg" class="list__icon" alt="Icon">
+                                <p class="list__text">Webpack</p>
+                            </li>
+                            <li class="list__item">
+                                <img src="./assets/svg/icon-eslint.svg" class="list__icon" alt="Icon">
+                                <p class="list__text">ESLint</p>
                             </li>
                             <li class="list__item">
                                 <img src="./assets/svg/icon-figma.svg" class="list__icon" alt="Icon">
@@ -130,35 +154,41 @@
                     <h2 class="title">About me</h2>
                     <p>I am an engineer by education and by vocation. I have enjoyed writing code since high school. Unfortunately I haven't been working in a IT field yet. But I have gained invaluable experience in business, procurement, logistics and marketing. Undoubtedly, these skills will help me in my future career. I am attentive to details, assiduous, executive and easily trained.</p>
                 </section>
-                <section id="code" class="section">
-                    <h2 class="title">Code example</h2>
-                    <p>This is my first function that I wrote in Java Script. This determines the prime numbers up to the entered maximum value.</p>
-                    <pre class="code-example">
-                        <code class="code">
-    let maxValue = prompt("Input max value", 10);
-    let message = null;
-
-    for (i = 2; i &#60;= maxValue; i++) {
-        let check = 0;
-        for (j = 2; j &#60; i; j++) {
-            if (i % j == 0) {
-            check = 1;
-            }
-        }
-        if (check == 0) {
-            if (message == null) {
-            message = (i);
-            } else
-            message = (message + `, ${i}`);
-        }
-    }
-    alert(message);
-                        </code>
-                    </pre>
-                </section>
                 <section id="projects" class="section">
                     <h2 class="title">Projects</h2>
                     <div class="project-list">
+                        <div class="project">
+                            <img src="./assets/img/pma.JPG" class="project__img">
+                            <div class="project__info">
+                                <div class="project__stack">
+                                    <img src="./assets/svg/icon-html.svg" class="list__icon" alt="Icon">
+                                    <img src="./assets/svg/icon-css.svg" class="list__icon" alt="Icon">
+                                    <img src="./assets/svg/icon-typescript.svg" class="list__icon" alt="Icon">
+                                    <img src="./assets/svg/icon-sass.svg" class="list__icon" alt="Icon">
+                                </div>
+                                <div class="project__title">Project Manager</div>
+                                <div class="project__links">
+                                    <a href="https://pma-svr-by.netlify.app/" class="project__link" target="_blank">Deploy</a>
+                                    <a href="https://github.com/svr-by/project-management-app/pull/19" class="project__link" target="_blank">Github</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project">
+                            <img src="./assets/img/rslang.JPG" class="project__img">
+                            <div class="project__info">
+                                <div class="project__stack">
+                                    <img src="./assets/svg/icon-html.svg" class="list__icon" alt="Icon">
+                                    <img src="./assets/svg/icon-css.svg" class="list__icon" alt="Icon">
+                                    <img src="./assets/svg/icon-typescript.svg" class="list__icon" alt="Icon">
+                                    <img src="./assets/svg/icon-sass.svg" class="list__icon" alt="Icon">
+                                </div>
+                                <div class="project__title">RSLang</div>
+                                <div class="project__links">
+                                    <a href="https://rslang-svr-by.netlify.app/" class="project__link" target="_blank">Deploy</a>
+                                    <a href="https://github.com/svr-by/RS_Lang_team96/pull/19" class="project__link" target="_blank">Github</a>
+                                </div>
+                            </div>
+                        </div>
                         <div class="project">
                             <img src="./assets/img/virtual-keyboard.JPG" class="project__img">
                             <div class="project__info">
@@ -175,7 +205,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="project">
                             <img src="./assets/img/async-race.jpg" class="project__img">
                             <div class="project__info">

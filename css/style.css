@@ -300,7 +300,7 @@ ul, li, h1, h2 {
 }
 
 .list--inner{
-    margin-left: 20px;
+    margin-left: 2rem;
 }
 
 .list__item {
@@ -325,7 +325,7 @@ ul, li, h1, h2 {
     margin: 0;
 }
 
-.code-example {
+/* .code-example {
     background-color: var(--color-lightgrey);
     font-size: 14px;
     padding: 10px;
@@ -334,7 +334,7 @@ ul, li, h1, h2 {
 .code {
     display: block;
     overflow-x: auto;
-}
+} */
 
 .section--name {
     padding: 2rem 0;
