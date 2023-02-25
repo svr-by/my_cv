@@ -344,6 +344,11 @@ ul, li, h1, h2 {
     margin: 0;
 }
 
+.list__link {
+    text-decoration: none;
+    color: inherit;
+}
+
 .section--name {
     padding: 2rem 0;
     color: var(--color-darkgrey);
